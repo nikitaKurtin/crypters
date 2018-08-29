@@ -1,0 +1,11 @@
+nav{
+	height: 5%;
+}
+section{
+	height: 75%;
+}
+nav>a{
+	/*https://css-tricks.com/almanac/properties/d/display/ */
+	display: inline-block;
+	margin: 0 10%;
+}

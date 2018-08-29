@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+}
+#main{
+	width: 100vw;
+	height: 100vh;
+}
+aside,section{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+aside{
+	width: 20%;
+}
+section{
+	width: 80%;
+}
+aside>img{
+	width: 100%;
+	display: block;
+	padding: 2px;
+}
+aside>img:hover{
+	opacity: 0.7;
+	/* https://css-tricks.com/almanac/properties/p/position/ */
+	position: relative;
+	left: 5px;
+}
+section>img{
+	margin-left: 25%;
+	width: 50%;
+}

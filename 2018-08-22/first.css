@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+header,footer{
+	height: 10%;
+	background: red;
+}
+nav{
+	height: 5%;
+	text-align: center;
+}
+nav>button{
+	height: 100%;
+	width: 20%;
+	margin-right: 2%;
+}
+section{
+	height: 75%;
+}
+#main{
+	height: 100vh;
+}

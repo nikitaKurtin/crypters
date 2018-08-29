@@ -1,0 +1,16 @@
+nav,section{
+	height: 80%;
+	display: inline-block;
+	float: left;
+}
+section{
+	width: 80%;
+}
+nav{
+	width: 20%;
+}
+nav>a{
+	/*https://css-tricks.com/almanac/properties/d/display/ */
+	display: block;
+	margin: 20% 0;
+}
