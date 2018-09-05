@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<script >
+		//LocalStorage
+		function addData1(data){
+			localStorage["myData"] = data;
+		}
+		function readData1(){
+			return localStorage["myData"];
+		}
+		function removeData1(){
+			//localStorage.removeItem("myData");//delete data by key
+			localStorage.clear();//delete all data
+		}
+		
+		//SessionStorage
+		function addData2(data){
+			sessionStorage["myData"] = data;
+		}
+		function readData2(){
+			return sessionStorage["myData"];
+		}
+		function removeData2(){
+			//sessionStorage.removeItem("myData");//delete data by key
+			sessionStorage.clear();//delete all data
+		}
+		
+		//Cookies
+		function addData3(){
+			document.cookie = "myData=Bubu";
+			document.cookie = "anotherData=Groot";
+		}
+		
+		//IndexedDB
+		function data4(){
+			var db;
+			
+			//dbName, dbVersion
+			const openHelper = indexedDB.open("nikiDB", 4);
+			
+			openHelper.onsuccess = function(e){
+				db = e.target.result;//
+				console.log("DB connected");
+				console.log(db);
+				//addData4();
+				//readData4();
+				saveAndReadIndexDB(db);
+			}
+			
+			openHelper.onupgradeneeded = function(e){
+				db = e.target.result;//
+				console.log("DB upgraded");
+				//add new data structure with primary key "id"
+				//db.createObjectStore("myData", {keyPath: "id"});
+				
+			}
+			
+			openHelper.onerror = function(e){
+				console.error("DB - error");
+			}
+			
+			function addData4(){
+				const key = "myData";
+				//value object MUST have keyPath name: "id", because it's primary key
+				const value = {id: 777, name:"Groot", info:"I am Groot", age: 16};
+				const req = db.transaction(key, "readwrite").objectStore(key).add(value);
+				req.onsuccess=function(){
+					console.log("Successfully added");
+				}
+				req.onerror=function(e){
+					console.error("Failed to add");
+				}
+				console.log(req);
+			}
+			
+			function readData4(){
+				const key = "myData";
+				const id = 777;
+				const req = db.transaction(key).objectStore(key).get(id);
+				req.onsuccess=function(e){
+					console.log("Successfully found ");
+					console.log(e.target.result);
+				}
+				req.onerror=function(e){
+					console.error("Failed to add");
+				}
+			}
+			
+		}
+		
+		//WebSQL
+		function data5(){
+			
+		}
+		
+		//Exercise 1
+		function saveUserData(){
+			const name = document.querySelector("#userName").value;
+			const age = document.querySelector("#userAge").value;
+			const isMarried = document.querySelector("#userIsMarried").checked;
+			localStorage[name] = JSON.stringify({name, age, isMarried});
+		}
+		
+		//Exercise 2
+		function saveAndReadIndexDB(db){
+			const key = "myData";
+			db.transaction(key, "readwrite").objectStore(key).add({id: 333, title: "Venom", year: 2018}).onsuccess = ()=>{
+				console.log("Added to "+key);
+				db.transaction(key).objectStore(key).get(333).onsuccess = (e)=>{
+					console.log(e.target.result);
+				};
+			};
+		}
+		
+	</script>
+</head>
+<body>
+	<fieldset>
+		<input id="userName" type="text" placeholder="userName"/>
+		<input id="userAge" type="number" min=0 step=1 placeholder="age" />
+		<br/>
+		<span>is married</span><input id="userIsMarried" type="checkbox" />
+		<button onclick="saveUserData()">save</button>
+	</fieldset> 
+</body>
+</html>

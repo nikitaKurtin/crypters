@@ -1,0 +1,62 @@
+Client side storages:
+1) Local storages
+2) Session storages
+3) WebSQL (SQLite) 
+4) IndexedDB
+5) Cookies
+
+Every browser stores this data in different locations, for example Google Chrome 68 (win10):
+C:\Users\[User Name]\AppData\Local\Google\Chrome\User Data\Default 
+
+https://db-engines.com/en/ranking
+
+/****************************/
+		Local storage
+/****************************/
+Persistent
+Key-Value based data storage
+
+Key: String
+Value: String 
+
+
+/****************************/
+		Session storage
+/****************************/
+Non - Persistent
+Key-Value based data storage
+
+Key: String
+Value: String 
+
+/****************************/
+		Cookies
+/****************************/
+Legacy (most supported) storage
+Non - Persistent
+Key-Value based 
+Passed in HTTP Headers:
+	HTTP Response -> Set-Cookie
+	Set-Cookie: cookie_name1=cookie_value1
+	Set-Cookie: cookie_name2=cookie_value2; expires=Sun, 16 Jul 3567 06:23:41 GMT
+	
+	HTTP Request -> Cookie
+	Cookie: cookie_name1=cookie_value1; cookie_name2=cookie_value2
+	
+	
+/****************************/
+		IndexedDB
+/****************************/	
+Persistent
+NoSQL JSON based Storage
+
+
+/****************************/
+		WebSQL
+/****************************/	
+Persistent
+SQL based Storage - RDBMS
+
+	
+
+	
