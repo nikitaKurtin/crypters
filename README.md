@@ -17,5 +17,5 @@
     - LocalStorage
     - SessionStorage
     - IndexedDB 
-    - **H.W. Who wants to practice a little, create a small library of your favorite movies or books**
+    - **HW** Who wants to practice a little, create a small library of your favorite movies or books
     
