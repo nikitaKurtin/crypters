@@ -1,0 +1,38 @@
+#main{
+	height: 160vh;
+	width: 160vw;
+}
+
+.field{
+	margin-left: 20%;
+	margin-top: 10%;
+	width: 60%;
+	height: 70%;
+	background: green;
+	position: relative;
+}
+
+.field>.gate{
+	position: absolute;
+	height: 16vh;
+	margin-left: 30%;
+	width: 40%;
+	background: red;
+	opacity: 0.7;
+}
+
+.field>.gate.top{
+	top: 0;
+}
+
+.field>.gate.bottom{
+	bottom: 0;
+}
+
+#ball{
+	position: fixed;
+	top: 40%;
+	left: 15%;
+	width: 8vh;
+	height: 8vh;
+}

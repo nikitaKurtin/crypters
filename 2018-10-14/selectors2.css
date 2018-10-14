@@ -1,0 +1,49 @@
+#main>div{
+	width: 200px;
+	height: 200px;
+	border: 1px dashed green;
+}
+/*ONLY first div inside #main*/
+#main>div:first-child{
+	font-size: 32px;
+	text-decoration: underline;
+}
+/*ONLY last div inside #main*/
+#main>div:last-child{
+	font-size: 8px;
+}
+/*ONLY second div inside #main*/
+#main>div:nth-child(2){
+	background: yellow;
+}
+/*ONLY third div from the end inside #main*/
+#main>div:nth-last-child(3){
+	background: blue;
+}
+/*ANY even child inside #main */
+#main>div:nth-child(even){
+	color: red;
+}
+/*ANY third child inside #main */
+#main>div:nth-child(3n){
+	text-align: center;
+}
+/*ANY div inside #main except .six */
+#main>div:not(.six){
+	border-radius: 40px;
+}
+/*ONLY div next to #main>div.six*/
+#main>div.six+div{
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+/*ANY div next to #main>div.six*/
+#main>div.six~div{
+	box-shadow: inset 0 0 10px 10px yellow;
+}
+/*Affect section ONLY when document language is hebrew*/
+section:lang(he){
+	direction: rtl;
+	text-align: right;
+}
+

@@ -1,0 +1,33 @@
+section>div{
+	height: 40vh;
+	border: 8px double red;
+}
+header,footer{
+	height: 20vh;
+	background: green;
+	position: relative;
+}
+footer{
+	border-bottom-right-radius: 5vh;
+}
+#circle{
+	height: 10vh;
+	width: 10vh;
+	background: blue;
+	border-radius: 50%;
+	position: fixed;
+	left: 1vh;
+	top: 1vh;
+}
+.radial{
+	height: 8vh;
+	width: 8vh;
+	border-radius: 50%;
+	background: yellow;
+	position: absolute;
+	bottom: 2vh;
+	right: 2vh;
+}
+.rel{
+	position: relative;
+}

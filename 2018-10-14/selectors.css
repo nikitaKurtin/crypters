@@ -1,0 +1,43 @@
+
+/*Select by tag name*/
+div{
+	height: 200px;
+	width: 500px;
+	border: 2px solid red;
+}
+
+/*Select by class name*/
+.bubu{
+	background: yellow;
+}
+
+/* AND */
+figure.bubu{
+	text-align: center;
+}
+
+/* OR */
+div.groot,button{
+	border-bottom-right-radius: 20px;
+}
+
+/*Select by attribute*/
+div[name=one]{
+	background: green;
+}
+
+/* Any */
+*{
+	margin: 0;
+}
+
+/*Any element inside fieldset that is also class groot*/
+fieldset.groot>*{
+	width: 100%;
+	display: block;
+}
+
+/* ">" direct subelement " " any subelement */
+#main .deadpool{
+	text-decoration: line-through;
+}
