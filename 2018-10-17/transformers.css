@@ -1,0 +1,45 @@
+div.box{
+	width: 200px;
+	height: 100px;
+	border-top-left-radius:  80px;
+	border-bottom-left-radius:  20px;
+	background: red;
+	margin-bottom: 60px;
+}
+
+div.box.two{
+	transform: rotate(33deg);
+}
+
+div.box.three{
+	transform: translate(30px, -20px);
+}
+
+div.box.four{
+	transform: scale(0.5, 2);
+}
+
+div.box.five{
+	transform: skew(40deg, 20deg);
+}
+
+div.box.six{
+	transform: translate(100px, 0) rotate(45deg);
+}
+
+div.gate{
+	height: 300px;
+	width: 100px;
+	border: 1px solid black;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+div.left{
+	float: left;
+}
+
+div.right{
+	float: right;
+	transform: rotate(180deg);
+}

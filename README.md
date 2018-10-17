@@ -19,8 +19,13 @@
   4. IndexedDB 
   - **HW** Who wants to practice a little, create a small library of your favorite movies or books
     
-    ## [14.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-14) 
+ ## [14.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-14) 
     - basic GUI
     - positions: absolute, fixed, relative and static
     - CSS basic selectors
     - CSS3 pseudo selectors
+    
+ ## [17.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-17) 
+    - gradients
+    - shadows
+    - transform
