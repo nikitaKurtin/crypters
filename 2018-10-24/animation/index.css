@@ -1,0 +1,65 @@
+div.one{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition: all 2s;
+}
+
+div.one:active{
+	width: 200px;
+	background: red;
+}
+
+div.two{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition: height 1s;
+}
+
+div.two:active{
+	height: 200px;
+	background: blue;
+}
+
+div.three{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition: height 1s, width 2s, background 0.5s;
+}
+
+div.three:active{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+}
+
+div.four{
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+
+div.four:active{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	transition: all 2s;
+}
+
+div.five{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition: all 1s;
+}
+
+div.five:hover{
+	transform: rotate(360deg);
+}
+
+div.five:active{
+	border-radius: 50%;
+	margin-top: 20px;
+}
