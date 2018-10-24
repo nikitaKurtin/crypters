@@ -1,0 +1,79 @@
+.carWrap{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	transition: all 2s;
+}
+.carPart{
+	background: red;
+}
+.carTop{
+	width: 180px;
+	height: 80px;
+	position: absolute;
+	top: -40px;
+}
+.carFront{
+	transform: skewX(45deg);
+	border-top-right-radius: 60px;
+	left: 120px;
+}
+.carBack{
+	border-top-left-radius: 60px;
+}
+.carBody{
+	width: 450px;
+	height: 80px;
+	border-radius: 20px 60px 20px 20px;
+}
+.wheel{
+	background: black;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -30px;
+	transition: all 2s;
+}
+.wheel.front{
+	left: 320px;
+}
+.wheel.back{
+	left: 20px;
+}
+.wheel:after{
+	position: absolute;
+	content:'';
+	top: 20px;
+	left: 20px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white black white black;
+}
+
+/*with class "end" and JS*/
+.carWrap.end{
+	margin-left: 850px;
+}
+.carWrap.end>.wheel{
+	transform: rotate(540deg);
+}
+
+/*with CSS only*/
+.carBtn:not(:active):after{
+	content: "start";
+}
+.carBtn:active:after{
+	content: "go";
+}
+.carBtn:active+.carWrap{
+	margin-left: 850px;
+}
+.carBtn:active+.carWrap>.wheel{
+	transform: rotate(540deg);
+}
+
+
+
+
+
