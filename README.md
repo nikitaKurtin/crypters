@@ -33,3 +33,8 @@
   ## [24.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-24)
   - WebSQL 
   - Interpolative animation with CSS3 transition
+
+  ## [28.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10    -28)
+  - Collections: Array, Queue, Stack, Set, Map, TypedArray
+  - querySelector and querySelectorAll
+
