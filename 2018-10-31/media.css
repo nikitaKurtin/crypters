@@ -1,0 +1,21 @@
+div.videoContainer>video{
+	display: block;
+}
+div.btn{
+	padding: 0 1em;
+	border-radius: 1em;
+	position: relative;
+	box-shadow: 0 3px 6px 0 black;
+	display: inline-block;
+}
+div.btn.stop{
+	font-size: 1.2em;
+}
+div.btn:hover{
+	background: linear-gradient(#ffffff, #d1d1d1);
+	cursor: pointer;
+}
+div.btn:active{
+	top: 2px;
+	box-shadow: 0 1px 3px 0 black;
+}
