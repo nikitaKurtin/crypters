@@ -1,0 +1,29 @@
+.gotCharacters>img{
+	height: 200px;
+}
+.gotHouses>section{
+	height: 25vw;
+	width: 25vw;
+	border: 2px double black;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.gotHouses>section>img{
+	width: 25%;
+}
+
+.gotHouses>section:before{
+	content: attr(data-house);
+	padding: 0.5em;
+	background: white;
+	box-shadow: inset 0 0 5px 2px black;
+	position: absolute;
+	top: -1.5em;
+	left: 168px;
+}
+
+h1.score{
+	
+}

@@ -38,7 +38,14 @@
   - Collections: Array, Queue, Stack, Set, Map, TypedArray
   - querySelector and querySelectorAll
 
-  ## [31.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-28)
+  ## [31.10.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-31)
   - HIG link: https://developer.apple.com/design/human-interface-guidelines/ios/
   - Material link: https://material.io/design/
   - Working with video element
+
+  ## [7.11.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-11-7)
+  - Working with audio element
+  - Drag and drop
+
+ 
+  

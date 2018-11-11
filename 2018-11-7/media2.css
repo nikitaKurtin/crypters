@@ -1,0 +1,28 @@
+.audioContainer>button{
+	border-radius: 2em;
+}
+
+.imageContainer>section{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+.imageContainer>section>img{
+	width: 100%;
+	height: 100%;
+}
+
+.imageContainer>section>figure{
+	width: 100%;
+	height: 50px;
+	background: red;
+}
+
+.imageContainer{
+	border-bottom: 4px double red;
+	height: 220px;
+}
