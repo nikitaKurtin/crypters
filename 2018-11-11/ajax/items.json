@@ -1,0 +1,1240 @@
+{
+"total": 72465,
+"max_score": 1,
+"hits": [
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "5b0548a5005e4e25c61d663d4a8c036db35ab68dbd8c7d882abda5d9cebb1a3b",
+"_score": 1,
+"_source": {
+"shop": {
+"hasPrice": true,
+"added": 1472856127000,
+"price": {
+"Orb of Fusing": 11
+},
+"priceSource": "stashName",
+"updated": 1472856127000,
+"chaosEquiv": 5.5,
+"sellerAccount": "InsaneWallaby",
+"verified": "YES",
+"modified": 1472856127000,
+"lastCharacterName": "Fiona_Falconstrike",
+"saleType": "b/o",
+"currency": "Orb of Fusing",
+"amount": "11",
+"stash": {
+"stashName": "~b/o 11 fuse",
+"yLocation": "8",
+"xLocation": "0",
+"stashID": "19d2ccf2111d60195101e6b8164da489e74c58f900c4ed2a6cc7572e3af36c2f",
+"inventoryID": "Stash7---"
+},
+"defaultMessage": "@Fiona_Falconstrike I would like to buy your Foe Stinger Citadel Bow listed for 11 Orb of Fusing (League:Standard, Stash Tab:~b/o 11 fuse [x0,y8])"
+},
+"info": {
+"fullName": "Foe Stinger Citadel Bow",
+"typeLine": "Citadel Bow",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png",
+"name": "Foe Stinger",
+"tokenized": {
+"fullName": "foe stinger citadel bow"
+}
+},
+"requirements": {
+"Dex": 185,
+"Level": 58
+},
+"attributes": {
+"inventoryWidth": 2,
+"ilvl": 78,
+"identified": true,
+"baseItemType": "Weapon",
+"itemType": "Bow",
+"frameType": 2,
+"league": "Standard",
+"weaponType": "Bow",
+"corrupted": false,
+"rarity": "Rare",
+"lockedToCharacter": false,
+"mirrored": false,
+"explicitModsCount": 6,
+"equipType": "Bow",
+"baseItemName": "Citadel Bow",
+"inventoryHeight": 4
+},
+"properties": {
+"Weapon": {
+"Elemental Damage": {
+"min": 38,
+"max": 65,
+"avg": 51
+},
+"Elemental DPS": 63,
+"Physical Damage": "65-198",
+"Cold Damage": {
+"max": 65,
+"min": 38,
+"avg": 51
+},
+"Critical Strike Chance": "7.92",
+"type": {
+"Bow": true
+},
+"Total DPS": 63,
+"Cold DPS": 63,
+"Attacks per Second": "1.25",
+"Total Damage": {
+"avg": 51,
+"min": 38,
+"max": 65
+}
+}
+},
+"uuid": "5b0548a5005e4e25c61d663d4a8c036db35ab68dbd8c7d882abda5d9cebb1a3b",
+"mods": {
+"Bow": {
+"explicit": {
+"Adds # to # Physical Damage": {
+"min": 23,
+"max": 46,
+"avg": 34.5
+},
+"#% increased Stun Duration on Enemies": 12,
+"#% increased Critical Strike Chance": 32,
+"+# to Accuracy Rating": 56,
+"Adds # to # Cold Damage": {
+"max": 65,
+"min": 38,
+"avg": 51.5
+},
+"#% increased Physical Damage": 35
+}
+}
+},
+"modsTotal": {
+"+# to Accuracy Rating": 56,
+"Adds # to # Cold Damage": {
+"max": 65,
+"min": 38,
+"avg": 51.5
+},
+"#% increased Physical Damage": 35,
+"Adds # to # Physical Damage": {
+"avg": 34.5,
+"min": 23,
+"max": 46
+},
+"#% increased Stun Duration on Enemies": 12,
+"#% increased Critical Strike Chance": 32
+},
+"sockets": {
+"largestLinkGroup": 2,
+"allSockets": "GG",
+"allSocketsGGG": "G-G",
+"sortedLinkGroup": {
+"0": "GG"
+},
+"allSocketsSorted": "GG",
+"totalGreen": 2,
+"socketCount": 2
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "5f3f04c86d76a619e32ae497b92d2c4d284ba8dda41dd612f8cefffeaf26e1a1",
+"_score": 1,
+"_source": {
+"shop": {
+"verified": "YES",
+"modified": 1472856129000,
+"lastCharacterName": "XLTomato",
+"saleType": "Offer",
+"stash": {
+"stashName": "Uniques",
+"yLocation": 5,
+"stashID": "26a7b86253374371d3f2abe788a239748f763ecbf34efbbf736c03db843293fb",
+"xLocation": 4,
+"inventoryID": "Stash9"
+},
+"hasPrice": false,
+"added": 1472856129000,
+"updated": 1472856129000,
+"sellerAccount": "XLTomato"
+},
+"info": {
+"typeLine": "Death Bow",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Deathsharp.png",
+"fullName": "Death's Harp Death Bow",
+"name": "Death's Harp",
+"flavourText": "The mournful music of the strings, The creaking arch, the arrow sings. A choking cry, a rattled breath, The Reaper's Song, the Harp of Death.",
+"tokenized": {
+"fullName": "death's harp death bow",
+"flavourText": "the mournful music of the strings, the creaking arch, the arrow sings. a choking cry, a rattled breath, the reaper's song, the harp of death."
+}
+},
+"requirements": {
+"Level": 32,
+"Dex": 107
+},
+"attributes": {
+"lockedToCharacter": false,
+"equipType": "Bow",
+"explicitModsCount": 4,
+"mirrored": false,
+"baseItemName": "Death Bow",
+"inventoryHeight": 4,
+"identified": true,
+"ilvl": 69,
+"baseItemType": "Weapon",
+"inventoryWidth": 2,
+"itemType": "Bow",
+"frameType": 3,
+"implicitModsCount": 1,
+"rarity": "Unique",
+"weaponType": "Bow",
+"league": "Standard",
+"corrupted": true
+},
+"properties": {
+"Weapon": {
+"Critical Strike Chance": "6.8",
+"type": {
+"Bow": true
+},
+"Physical Damage": "46-122",
+"Attacks per Second": "1.32"
+},
+"Quality": "20"
+},
+"uuid": "5f3f04c86d76a619e32ae497b92d2c4d284ba8dda41dd612f8cefffeaf26e1a1",
+"mods": {
+"Bow": {
+"implicit": {
+"#% increased Critical Strike Chance": 36
+},
+"explicit": {
+"+#% to Global Critical Strike Multiplier": 100,
+"Adds an additional Arrow": true,
+"#% increased Attack Speed": 10,
+"#% increased Physical Damage": 110
+}
+}
+},
+"modsTotal": {
+"#% increased Critical Strike Chance": 36,
+"+#% to Global Critical Strike Multiplier": 100,
+"#% increased Attack Speed": 10,
+"#% increased Physical Damage": 110
+},
+"sockets": {
+"allSockets": "GGGG-G",
+"largestLinkGroup": 4,
+"allSocketsGGG": "G-G-G-G G",
+"sortedLinkGroup": {
+"0": "GGGG",
+"1": "G"
+},
+"allSocketsSorted": "GGGGG",
+"totalGreen": 5,
+"socketCount": 5
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "75a94413e581a0acce6f25c4d90589cc7d523b2370f9b2794da58f80c127337e",
+"_score": 1,
+"_source": {
+"modsTotal": {
+"#% increased Physical Damage": 118,
+"+# Mana gained on Kill": 2,
+"+# to Accuracy Rating": 236,
+"+# Life gained on Kill": 5,
+"Adds # to # Lightning Damage": {
+"avg": 27.5,
+"min": 3,
+"max": 52
+},
+"Adds # to # Physical Damage": {
+"max": 26,
+"min": 14,
+"avg": 20
+}
+},
+"sockets": {
+"totalGreen": 3,
+"totalRed": 1,
+"socketCount": 4,
+"allSocketsSorted": "GGGR",
+"sortedLinkGroup": {
+"0": "GGGR"
+},
+"allSocketsGGG": "G-G-R-G",
+"allSockets": "GGRG",
+"largestLinkGroup": 4
+},
+"uuid": "75a94413e581a0acce6f25c4d90589cc7d523b2370f9b2794da58f80c127337e",
+"mods": {
+"Bow": {
+"explicit": {
+"Adds # to # Lightning Damage": {
+"avg": 27.5,
+"max": 52,
+"min": 3
+},
+"Adds # to # Physical Damage": {
+"min": 14,
+"max": 26,
+"avg": 20
+},
+"+# Life gained on Kill": 5,
+"+# Mana gained on Kill": 2,
+"+# to Accuracy Rating": 236,
+"#% increased Physical Damage": 118
+}
+}
+},
+"properties": {
+"Quality": "20",
+"Weapon": {
+"Lightning DPS": 32,
+"Attacks per Second": "1.2",
+"Total Damage": {
+"avg": 27,
+"min": 3,
+"max": 52
+},
+"Elemental Damage": {
+"avg": 27,
+"min": 3,
+"max": 52
+},
+"Elemental DPS": 32,
+"Physical Damage": "107-255",
+"type": {
+"Bow": true
+},
+"Critical Strike Chance": "5",
+"Lightning Damage": {
+"max": 52,
+"min": 3,
+"avg": 27
+},
+"Total DPS": 32
+}
+},
+"attributes": {
+"rarity": "Rare",
+"weaponType": "Bow",
+"league": "Standard",
+"corrupted": false,
+"frameType": 2,
+"itemType": "Bow",
+"ilvl": 53,
+"baseItemType": "Weapon",
+"identified": true,
+"inventoryWidth": 2,
+"inventoryHeight": 4,
+"baseItemName": "Decimation Bow",
+"explicitModsCount": 6,
+"mirrored": false,
+"equipType": "Bow",
+"lockedToCharacter": false
+},
+"requirements": {
+"Dex": 170,
+"Level": 53
+},
+"info": {
+"typeLine": "Decimation Bow",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png",
+"fullName": "Brood Nock Decimation Bow",
+"name": "Brood Nock",
+"tokenized": {
+"fullName": "brood nock decimation bow"
+}
+},
+"shop": {
+"modified": 1472856131000,
+"verified": "YES",
+"currency": "Chaos Orb",
+"saleType": "b/o",
+"lastCharacterName": "SoupDweller",
+"defaultMessage": "@SoupDweller I would like to buy your Brood Nock Decimation Bow listed for 10 Chaos Orb (League:Standard, Stash Tab:~b/o 10 chaos [x0,y0])",
+"stash": {
+"xLocation": "0",
+"stashID": "18959e777d45796d4c0d16c7e84a9070f825956eb5dfdb35c659b031c3c74dd5",
+"inventoryID": "Stash1",
+"stashName": "~b/o 10 chaos",
+"yLocation": "0"
+},
+"amount": "10",
+"hasPrice": true,
+"priceSource": "stashName",
+"price": {
+"Chaos Orb": 10
+},
+"added": 1472856131000,
+"updated": 1472856131000,
+"sellerAccount": "ProfessorObb",
+"chaosEquiv": 10
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "7bcd95c48ad083c748a03f573eb697e948a5ef1d5402e37896a8299819ce4443",
+"_score": 1,
+"_source": {
+"mods": {
+"Bow": {
+"explicit": {
+"No Physical Damage": true,
+"Adds # to # Lightning Damage": {
+"max": 85,
+"avg": 43,
+"min": 1
+},
+"#% increased Attack Speed": 49
+}
+}
+},
+"info": {
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Stormcloud.png",
+"flavourText": "Centuries of development in steel armoursmithing turned the armies of the Eternal Empire into very effective lightning rods.",
+"fullName": "Storm Cloud Long Bow",
+"name": "Storm Cloud",
+"tokenized": {
+"fullName": "storm cloud long bow",
+"flavourText": "centuries of development in steel armoursmithing turned the armies of the eternal empire into very effective lightning rods."
+},
+"typeLine": "Long Bow"
+},
+"sockets": {
+"allSocketsSorted": "GGR",
+"largestLinkGroup": 3,
+"totalGreen": 2,
+"sortedLinkGroup": {
+"0": "GGR"
+},
+"totalRed": 1,
+"allSocketsGGG": "G-G-R",
+"socketCount": 3,
+"allSockets": "GGR"
+},
+"modsTotal": {
+"#% increased Attack Speed": 49,
+"Adds # to # Lightning Damage": {
+"min": 1,
+"avg": 43,
+"max": 85
+}
+},
+"shop": {
+"verified": "YES",
+"added": 1472856132000,
+"lastCharacterName": "StrongMemeGame",
+"stash": {
+"stashName": "Expensive Uniques",
+"yLocation": 4,
+"stashID": "0d4c01b1166c79cd8cd922f7fa85595562cdbd775c6ba51a849594c9e9b53051",
+"inventoryID": "Stash8",
+"xLocation": 2
+},
+"sellerAccount": "Figjam",
+"modified": 1472856132000,
+"hasPrice": false,
+"updated": 1472856132000,
+"saleType": "Offer"
+},
+"uuid": "7bcd95c48ad083c748a03f573eb697e948a5ef1d5402e37896a8299819ce4443",
+"properties": {
+"Weapon": {
+"Elemental DPS": 83,
+"Total DPS": 83,
+"Attacks per Second": "1.94",
+"type": {
+"Bow": true
+},
+"Total Damage": {
+"avg": 43,
+"min": 1,
+"max": 85
+},
+"Lightning Damage": {
+"max": 85,
+"min": 1,
+"avg": 43
+},
+"Critical Strike Chance": "6",
+"Elemental Damage": {
+"max": 85,
+"min": 1,
+"avg": 43
+},
+"Lightning DPS": 83
+}
+},
+"attributes": {
+"inventoryWidth": 2,
+"mirrored": false,
+"weaponType": "Bow",
+"baseItemType": "Weapon",
+"baseItemName": "Long Bow",
+"identified": true,
+"itemType": "Bow",
+"equipType": "Bow",
+"lockedToCharacter": false,
+"inventoryHeight": 4,
+"frameType": 3,
+"corrupted": false,
+"league": "Standard",
+"ilvl": 75,
+"explicitModsCount": 3,
+"rarity": "Unique"
+},
+"requirements": {
+"Level": 9,
+"Dex": 38
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "e6394a29b76b2aa3997b4440852d66543b3a5d820539a675f99822e27a4a9537",
+"_score": 1,
+"_source": {
+"info": {
+"fullName": "Remora's Harbinger Bow of the Zephyr",
+"tokenized": {
+"fullName": "remora's harbinger bow of the zephyr"
+},
+"typeLine": "Remora's Harbinger Bow of the Zephyr",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png"
+},
+"mods": {
+"Bow": {
+"implicit": {
+"#% increased Critical Strike Chance": 48
+},
+"explicit": {
+"#% of Physical Attack Damage Leeched as Life": 0.21,
+"#% increased Projectile Speed": 34
+}
+}
+},
+"modsTotal": {
+"#% increased Projectile Speed": 34,
+"#% of Physical Attack Damage Leeched as Life": 0.21,
+"#% increased Critical Strike Chance": 48
+},
+"sockets": {
+"sortedLinkGroup": {
+"0": "GGG",
+"1": "GG",
+"2": "G"
+},
+"allSockets": "GGG-GG-G",
+"totalGreen": 6,
+"largestLinkGroup": 3,
+"allSocketsSorted": "GGGGGG",
+"socketCount": 6,
+"allSocketsGGG": "G-G-G G-G G"
+},
+"uuid": "e6394a29b76b2aa3997b4440852d66543b3a5d820539a675f99822e27a4a9537",
+"shop": {
+"chaosEquiv": 5,
+"currency": "Orb of Fusing",
+"added": 1472856133000,
+"verified": "YES",
+"defaultMessage": "@Fiona_Falconstrike I would like to buy your Remora's Harbinger Bow of the Zephyr listed for 10 Orb of Fusing (League:Standard, Stash Tab:~b/o 10 fuse [x10,y0])",
+"updated": 1472856133000,
+"amount": "10",
+"saleType": "b/o",
+"lastCharacterName": "Fiona_Falconstrike",
+"hasPrice": true,
+"modified": 1472856133000,
+"sellerAccount": "InsaneWallaby",
+"stash": {
+"stashID": "055c9a43a3f9359ff9f6949d26698caf9dfe56558ff8c8056e9fe4980b1807ef",
+"inventoryID": "Stash54",
+"xLocation": "10",
+"yLocation": "0",
+"stashName": "~b/o 10 fuse"
+},
+"price": {
+"Orb of Fusing": 10
+},
+"priceSource": "stashName"
+},
+"attributes": {
+"baseItemType": "Weapon",
+"implicitModsCount": 1,
+"mirrored": false,
+"weaponType": "Bow",
+"inventoryWidth": 2,
+"league": "Standard",
+"ilvl": 69,
+"rarity": "Magic",
+"explicitModsCount": 2,
+"inventoryHeight": 4,
+"corrupted": false,
+"frameType": 1,
+"lockedToCharacter": false,
+"baseItemName": "Harbinger Bow",
+"identified": true,
+"itemType": "Bow",
+"equipType": "Bow"
+},
+"requirements": {
+"Dex": 212,
+"Level": 68
+},
+"properties": {
+"Weapon": {
+"Attacks per Second": "1.2",
+"type": {
+"Bow": true
+},
+"Physical Damage": "35-91",
+"Critical Strike Chance": "7.4"
+}
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "27e8042056616f6246de3935b4660bc8da5a7cfb742a054baf0d91eb71025923",
+"_score": 1,
+"_source": {
+"attributes": {
+"equipType": "Bow",
+"identified": true,
+"itemType": "Bow",
+"baseItemName": "Crude Bow",
+"lockedToCharacter": false,
+"frameType": 3,
+"corrupted": false,
+"inventoryHeight": 3,
+"rarity": "Unique",
+"explicitModsCount": 5,
+"league": "Hardcore",
+"ilvl": 17,
+"inventoryWidth": 2,
+"weaponType": "Bow",
+"mirrored": false,
+"baseItemType": "Weapon"
+},
+"properties": {
+"Weapon": {
+"Physical Damage": "9-23",
+"type": {
+"Bow": true
+},
+"Attacks per Second": "1.54",
+"Critical Strike Chance": "5"
+}
+},
+"uuid": "27e8042056616f6246de3935b4660bc8da5a7cfb742a054baf0d91eb71025923",
+"shop": {
+"added": 1472856134000,
+"verified": "YES",
+"updated": 1472856134000,
+"saleType": "Offer",
+"lastCharacterName": "morlox",
+"stash": {
+"yLocation": 3,
+"xLocation": 1,
+"inventoryID": "Stash45",
+"stashID": "51db6509b3b0405de18a69c0de07d187da507a3bc1fdfda8dd47a516ee7c84df",
+"stashName": "641 lowlevelgg"
+},
+"sellerAccount": "morloxIC",
+"hasPrice": false,
+"modified": 1472856134000
+},
+"modsTotal": {
+"+# to Accuracy Rating": 30,
+"#% increased Attack Speed": 10,
+"#% increased Physical Damage": 74,
+"+# to Level of Socketed Bow Gems": 1,
+"+# Mana gained on Kill": 10
+},
+"sockets": {
+"socketCount": 1,
+"allSocketsGGG": "B",
+"largestLinkGroup": 1,
+"allSocketsSorted": "B",
+"totalBlue": 1,
+"sortedLinkGroup": {
+"0": "B"
+},
+"allSockets": "B"
+},
+"info": {
+"tokenized": {
+"flavourText": "the wild takes care of its own. - hyrri of the karui",
+"fullName": "silverbranch crude bow"
+},
+"typeLine": "Crude Bow",
+"name": "Silverbranch",
+"fullName": "Silverbranch Crude Bow",
+"flavourText": "The wild takes care of its own. - Hyrri of the Karui",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow1Unique.png"
+},
+"mods": {
+"Bow": {
+"explicit": {
+"+# to Accuracy Rating": 30,
+"#% increased Attack Speed": 10,
+"#% increased Physical Damage": 74,
+"+# to Level of Socketed Bow Gems": 1,
+"+# Mana gained on Kill": 10
+}
+}
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "e7577d3f5e04cc9651d33d2f03df389f38239dce2d2a9b3347260ea5d81bb5d6",
+"_score": 1,
+"_source": {
+"attributes": {
+"league": "Standard",
+"identified": true,
+"explicitModsCount": 4,
+"weaponType": "Bow",
+"baseItemName": "Death Bow",
+"inventoryHeight": 4,
+"corrupted": false,
+"ilvl": 67,
+"baseItemType": "Weapon",
+"rarity": "Unique",
+"lockedToCharacter": false,
+"equipType": "Bow",
+"frameType": 3,
+"inventoryWidth": 2,
+"mirrored": false,
+"itemType": "Bow"
+},
+"mods": {
+"Bow": {
+"explicit": {
+"Adds an additional Arrow": true,
+"#% increased Attack Speed": 10,
+"+#% to Global Critical Strike Multiplier": 100,
+"#% increased Physical Damage": 102
+}
+}
+},
+"info": {
+"typeLine": "Death Bow",
+"flavourText": "The mournful music of the strings, The creaking arch, the arrow sings. A choking cry, a rattled breath, The Reaper's Song, the Harp of Death.",
+"fullName": "Death's Harp Death Bow",
+"tokenized": {
+"fullName": "death's harp death bow",
+"flavourText": "the mournful music of the strings, the creaking arch, the arrow sings. a choking cry, a rattled breath, the reaper's song, the harp of death."
+},
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Deathsharp.png",
+"name": "Death's Harp"
+},
+"requirements": {
+"Level": 32,
+"Dex": 107
+},
+"modsTotal": {
+"#% increased Attack Speed": 10,
+"+#% to Global Critical Strike Multiplier": 100,
+"#% increased Physical Damage": 102
+},
+"properties": {
+"Quality": "20",
+"Weapon": {
+"Attacks per Second": "1.32",
+"Physical Damage": "44-118",
+"type": {
+"Bow": true
+},
+"Critical Strike Chance": "5"
+}
+},
+"shop": {
+"lastCharacterName": "MeBamBam",
+"added": 1472856135000,
+"hasPrice": false,
+"saleType": "Offer",
+"updated": 1472856135000,
+"verified": "YES",
+"sellerAccount": "ratelaar",
+"modified": 1472856135000,
+"stash": {
+"inventoryID": "Stash2",
+"yLocation": 8,
+"stashID": "171c7f66ceec77e74525dd6d929ab8fd81cd026e98d72b23b3ed6c1525c56ea2",
+"stashName": "10",
+"xLocation": 4
+}
+},
+"sockets": {
+"allSocketsGGG": "G-G-G",
+"sortedLinkGroup": {
+"0": "GGG"
+},
+"largestLinkGroup": 3,
+"allSocketsSorted": "GGG",
+"totalGreen": 3,
+"socketCount": 3,
+"allSockets": "GGG"
+},
+"uuid": "e7577d3f5e04cc9651d33d2f03df389f38239dce2d2a9b3347260ea5d81bb5d6"
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "5b368b82c3d9c56b14bb988cc26a4c4dfdb651846691c4e357f5e5933f640476",
+"_score": 1,
+"_source": {
+"uuid": "5b368b82c3d9c56b14bb988cc26a4c4dfdb651846691c4e357f5e5933f640476",
+"requirements": {
+"Level": 59,
+"Dex": 179
+},
+"sockets": {
+"allSocketsGGG": "G B B-G",
+"socketCount": 4,
+"sortedLinkGroup": {
+"0": "G",
+"1": "B",
+"2": "BG"
+},
+"allSocketsSorted": "BBGG",
+"totalBlue": 2,
+"allSockets": "G-B-BG",
+"largestLinkGroup": 2,
+"totalGreen": 2
+},
+"mods": {
+"Bow": {
+"explicit": {
+"Adds # to # Fire Damage": {
+"max": 56,
+"avg": 42.5,
+"min": 29
+},
+"Adds # to # Cold Damage": {
+"max": 15,
+"avg": 11.5,
+"min": 8
+},
+"Adds # to # Lightning Damage": {
+"max": 113,
+"min": 9,
+"avg": 61
+},
+"#% increased Stun Duration on Enemies": 13,
+"+# Mana gained on Kill": 1
+}
+}
+},
+"attributes": {
+"weaponType": "Bow",
+"equipType": "Bow",
+"inventoryHeight": 3,
+"ilvl": 77,
+"rarity": "Rare",
+"baseItemType": "Weapon",
+"league": "Standard",
+"inventoryWidth": 2,
+"itemType": "Bow",
+"corrupted": false,
+"identified": true,
+"mirrored": false,
+"frameType": 2,
+"baseItemName": "Thicket Bow",
+"explicitModsCount": 5,
+"lockedToCharacter": false
+},
+"shop": {
+"updated": 1472856063000,
+"lastCharacterName": "Fiona_Falconstrike",
+"priceSource": "stashName",
+"sellerAccount": "InsaneWallaby",
+"saleType": "b/o",
+"price": {
+"Chaos Orb": 12
+},
+"verified": "YES",
+"hasPrice": true,
+"modified": 1472856063000,
+"chaosEquiv": 12,
+"currency": "Chaos Orb",
+"defaultMessage": "@Fiona_Falconstrike I would like to buy your Corruption Wing Thicket Bow listed for 12 Chaos Orb (League:Standard, Stash Tab:~b/o 12 chaos [x6,y0])",
+"added": 1472856063000,
+"stash": {
+"yLocation": "0",
+"inventoryID": "Stash26",
+"xLocation": "6",
+"stashName": "~b/o 12 chaos",
+"stashID": "3a010ef1e559b990a139713149f151cda1688333a91ec3f699dff18ca160b732"
+},
+"amount": "12"
+},
+"info": {
+"tokenized": {
+"fullName": "corruption wing thicket bow"
+},
+"typeLine": "Thicket Bow",
+"fullName": "Corruption Wing Thicket Bow",
+"name": "Corruption Wing",
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png"
+},
+"properties": {
+"Weapon": {
+"type": {
+"Bow": true
+},
+"Total DPS": 172,
+"Lightning Damage": {
+"avg": 61,
+"min": 9,
+"max": 113
+},
+"Elemental DPS": 172,
+"Fire DPS": 63,
+"Cold Damage": {
+"min": 8,
+"avg": 11,
+"max": 15
+},
+"Total Damage": {
+"min": 46,
+"avg": 115,
+"max": 184
+},
+"Fire Damage": {
+"max": 56,
+"avg": 42,
+"min": 29
+},
+"Cold DPS": 16,
+"Attacks per Second": "1.5",
+"Critical Strike Chance": "5",
+"Lightning DPS": 91,
+"Physical Damage": "22-66",
+"Elemental Damage": {
+"max": 184,
+"min": 46,
+"avg": 115
+}
+}
+},
+"modsTotal": {
+"Adds # to # Cold Damage": {
+"min": 8,
+"avg": 11.5,
+"max": 15
+},
+"Adds # to # Fire Damage": {
+"max": 56,
+"min": 29,
+"avg": 42.5
+},
+"+# Mana gained on Kill": 1,
+"#% increased Stun Duration on Enemies": 13,
+"Adds # to # Lightning Damage": {
+"min": 9,
+"avg": 61,
+"max": 113
+}
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "9cae5c157156fcf879f660a777d1a6071dee5ed52a477f9afda430453d327a28",
+"_score": 1,
+"_source": {
+"mods": {
+"Bow": {
+"implicit": {
+"#% increased Critical Strike Chance": 33
+},
+"explicit": {
+"#% increased Physical Damage": 71,
+"Adds # to # Fire Damage": {
+"min": 14,
+"avg": 22,
+"max": 30
+},
+"Adds # to # Physical Damage": {
+"max": 24,
+"min": 13,
+"avg": 18.5
+},
+"#% increased Projectile Speed": 18
+}
+}
+},
+"attributes": {
+"itemType": "Bow",
+"inventoryWidth": 2,
+"inventoryHeight": 4,
+"ilvl": 69,
+"rarity": "Rare",
+"baseItemType": "Weapon",
+"implicitModsCount": 1,
+"league": "Standard",
+"weaponType": "Bow",
+"equipType": "Bow",
+"baseItemName": "Decimation Bow",
+"explicitModsCount": 4,
+"lockedToCharacter": false,
+"mirrored": false,
+"frameType": 2,
+"corrupted": false,
+"identified": true
+},
+"sockets": {
+"socketCount": 2,
+"allSocketsSorted": "GG",
+"sortedLinkGroup": {
+"0": "G",
+"1": "G"
+},
+"allSockets": "G-G",
+"allSocketsGGG": "G G",
+"largestLinkGroup": 1,
+"totalGreen": 2
+},
+"requirements": {
+"Dex": 170,
+"Level": 53
+},
+"uuid": "9cae5c157156fcf879f660a777d1a6071dee5ed52a477f9afda430453d327a28",
+"modsTotal": {
+"Adds # to # Fire Damage": {
+"max": 30,
+"avg": 22,
+"min": 14
+},
+"#% increased Physical Damage": 71,
+"#% increased Critical Strike Chance": 33,
+"#% increased Projectile Speed": 18,
+"Adds # to # Physical Damage": {
+"max": 24,
+"min": 13,
+"avg": 18.5
+}
+},
+"properties": {
+"Weapon": {
+"Total DPS": 26,
+"type": {
+"Bow": true
+},
+"Elemental DPS": 26,
+"Fire DPS": 26,
+"Attacks per Second": "1.2",
+"Fire Damage": {
+"avg": 22,
+"min": 14,
+"max": 30
+},
+"Total Damage": {
+"max": 30,
+"avg": 22,
+"min": 14
+},
+"Physical Damage": "75-180",
+"Elemental Damage": {
+"max": 30,
+"avg": 22,
+"min": 14
+},
+"Critical Strike Chance": "6.65"
+}
+},
+"info": {
+"fullName": "Maelstr?m Nock Decimation Bow",
+"typeLine": "Decimation Bow",
+"tokenized": {
+"fullName": "maelstr?m nock decimation bow"
+},
+"icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png",
+"name": "Maelstr?m Nock"
+},
+"shop": {
+"verified": "YES",
+"saleType": "b/o",
+"price": {
+"Chaos Orb": 14
+},
+"sellerAccount": "InsaneWallaby",
+"updated": 1472856063000,
+"priceSource": "stashName",
+"lastCharacterName": "Fiona_Falconstrike",
+"modified": 1472856063000,
+"hasPrice": true,
+"defaultMessage": "@Fiona_Falconstrike I would like to buy your Maelstr?m Nock Decimation Bow listed for 14 Chaos Orb (League:Standard, Stash Tab:~b/o 14 chaos [x6,y4])",
+"currency": "Chaos Orb",
+"chaosEquiv": 14,
+"amount": "14",
+"stash": {
+"inventoryID": "Stash14",
+"yLocation": "4",
+"stashID": "33f31a6998fb90b69db7a39b3f09f78e119333051688c2321b2cc75f34f98982",
+"xLocation": "6",
+"stashName": "~b/o 14 chaos"
+},
+"added": 1472856063000
+}
+}
+}
+,
+{
+"_index": "poe01",
+"_type": "item",
+"_id": "7d6fb01317fc70cf87a325a0e894c777cd6acd216e281660c001124470375648",
+"_score": 1,
+"_source": {
+"mods": {
+"Bow": {
+"implicit": {
+"#% increased Critical Strike Chance": 38
+},
+"explicit": {
+"+#% to Global Critical Strike Multiplier": 37,
+"+# to Accuracy Rating": 290,
+"#% increased Physical Damage": 60,
+"Adds # to # Cold Damage": {
+"min": 1,
+"max": 3,
+"avg": 2
+}
+}
+}
+},
+"uuid": "7d6fb01317fc70cf87a325a0e894c777cd6acd216e281660c001124470375648",
+"sockets": {
+"allSocketsSorted": "GG",
+"sortedLinkGroup": {
+"0": "G",
+"1": "G"
+},
+"totalGreen": 2,
+"socketCount": 2,
+"allSockets": "G-G",
+"largestLinkGroup": 1,
+"allSocketsGGG": "G G"
+},
+"modsTotal": {
+"+# to Accuracy Rating": 290,
+"Adds # to # Cold Damage": {
+"avg": 2,
+"min": 1,
+"max": 3
+},
+"#% increased Physical Damage": 60,
+"+#% to Global Critical Strike Multiplier": 37,
+"#% increased Critical Strike Chance": 38
+},
+"requirements": {
+"Level": 68,
+"Dex": 212
+},
+"shop": {
+"added": 1472856065000,
+"hasPrice": false,
+"sellerAccount": "Darkdexou",
+"updated": 1472856065000,
+"modified": 1472856065000,
+"verified": "YES",
+"stash": {
+"xLocation": 0,
+"stashID": "fb51258ccda420979e43c086791258c1aa2ddbb7f08196c40e63ee23a90f6c56",
+"inventoryID": "Stash16",
+"stashName": "Crafting",
+"yLocation": 0
+},
+"saleType": "Offer",
+"lastCharacterName": "SilentDec"
+},
+"info": {
+"name": "Phoenix Bane",
+"tokenized": {
+"fullName": "phoenix bane harbinger bow"
+},
+"typeLine": "Harbinger Bow",
+"fullName": "Phoenix Bane Harbinger Bow"
+},
+"properties": {
+"Weapon": {
+"Cold Damage": {
+"min": 1,
+"max": 3,
+"avg": 2
+},
+"Physical Damage": "56-146",
+"Critical Strike Chance": "6.9",
+"type": {
+"Bow": true
+},
+"Total DPS": 2,
+"Elemental Damage": {
+"avg": 2,
+"max": 3,
+"min": 1
+},
+"Elemental DPS": 2,
+"Attacks per Second": "1.2",
+"Total Damage": {
+"max": 3,
+"min": 1,
+"avg": 2
+},
+"Cold DPS": 2
+}
+},
+"attributes": {
+"lockedToCharacter": false,
+"explicitModsCount": 4,
+"mirrored": false,
+"equipType": "Bow",
+"baseItemName": "Harbinger Bow",
+"inventoryHeight": 4,
+"inventoryWidth": 2,
+"identified": true,
+"baseItemType": "Weapon",
+"ilvl": 83,
+"itemType": "Bow",
+"implicitModsCount": 1,
+"frameType": 2,
+"league": "Standard",
+"weaponType": "Bow",
+"corrupted": false,
+"rarity": "Rare"
+}
+}
+}
+]
+}

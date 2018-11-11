@@ -47,5 +47,6 @@
   - Working with audio element
   - Drag and drop
 
- 
-  
+  ## [11.11.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-11-11) 
+  - jQuery
+  - AJAX 

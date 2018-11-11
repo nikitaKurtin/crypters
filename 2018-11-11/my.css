@@ -1,0 +1,9 @@
+#imagesLine>img{
+	height: 10vh;
+}
+#result>img{
+	display: none;
+	height: 30vh;
+	padding: 0.5em;
+	border: 1px solid black;
+}
