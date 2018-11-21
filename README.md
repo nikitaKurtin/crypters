@@ -50,3 +50,9 @@
   ## [11.11.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-11-11) 
   - jQuery
   - AJAX 
+
+  ## [14.11.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-11-14)
+  - Working with external API
+  
+
+
