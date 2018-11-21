@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="Bootstrap3.3.7.css" />
+	<link rel="stylesheet" href="my.css" />
+	<script src="jquery.js"></script>
+	<script src="bootstrap3.3.7.js"></script>
+	<script >
+		
+		function showCrypto(cryptoElem){
+			const name = $(cryptoElem).attr("name"), change = $(cryptoElem).attr("data-change"), modalHeader = $(".modal .modal-header");
+			$(".modal").modal();
+			modalHeader.text(name + " "+change);
+			if(change > 0){
+				modalHeader.removeClass("text-danger").addClass("text-success");
+			}else{
+				modalHeader.removeClass("text-success").addClass("text-danger");
+			}
+			$(".modal .modal-body>img").attr("src", "https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/"+cryptoElem.id+".png");
+		}
+		$(()=>{
+			$.getJSON("https://api.coinmarketcap.com/v2/ticker/?limit=15&convert=ILS", (res)=>{
+				var lis = "", count = 0;
+				const data = res.data;
+				for(let id in data){
+					const name = data[id].name;
+					const price = twoDecimal(data[id].quotes.USD.price);
+					const change24 = data[id].quotes.USD.percent_change_24h;
+					lis += "<li class='list-group-item' id='"+id+"' name='"+name+"' data-change='"+change24+"' onclick='showCrypto(this)'><img src='https://s2.coinmarketcap.com/static/img/coins/32x32/"+id+".png'> "+name+" "+price+"</li>";
+					count ++;
+				}
+				$("#cryptoList").html(lis);
+				$("#main>footer").text("Loaded "+count+" currencies");
+			});
+			
+			function twoDecimal(num){
+				return  Math.floor(num * 100) / 100;
+			}
+			$("#closeBtn").click(()=>{
+				console.log("btn!!!");
+				$("#dialogWrapper").fadeOut(300);
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<div id="main">
+		<div class="panel panel-primary">
+			<div class="panel-heading">Crypto App</div>
+			<div class="panel-body">
+				<ul id="cryptoList" class="list-group"></ul>
+			</div>
+		</div>
+	</div>
+	<div class="modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header"></div>
+		  <div class="modal-body">
+			<img class="img-responsive" />
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</body>
+</html>

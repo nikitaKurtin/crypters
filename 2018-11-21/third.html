@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="Bootstrap3.3.7.css" />
+	<script src="jquery.js"></script>
+	<script src="bootstrap3.3.7.js"></script>
+	<script defer src="my.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a>AAA</a></li>
+				<li><a>BBB</a></li>
+				<li><a>CCC</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<aside class="col-md-2">
+				<div class="panel panel-default">
+					<div class="panel-heading">Movies</div>
+					<div class="panel-body">
+						<ul class="list-group movies">
+							<li class="list-group-item">Deadpool 2</li>
+							<li class="list-group-item">Venom</li>
+							<li class="list-group-item">Aquaman</li>
+							<li class="list-group-item">Captain marvel</li>
+							<li class="list-group-item">Wolverine</li>
+						</ul>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="form-group">
+							<div class="input-group"><span class="input-group-addon">@</span><input class="form-control" placeholder="email" /></div>
+							<div class="input-group"><span class="input-group-addon">&#x1f512;</span><input class="form-control" placeholder="password" /></div>
+						</div>
+					</div>
+					<div class="panel-footer container-fluid">
+						<button class="btn btn-info pull-right">send</button>
+					</div>
+				</div>
+			</aside>
+			<section class="col-md-10">
+				<div class="panel panel-info">
+					<div class="panel-heading">Something</div>
+					<div class="panel-body"></div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header"></div>
+		  <div class="modal-body">
+			<div class="alert alert-info selected-movie"></div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
