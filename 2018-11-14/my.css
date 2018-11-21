@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#cryptoList{
+	list-style: none;
+	width: 92vw;
+	height: 84vh;
+	margin-left: 4vw;
+}
+#cryptoList>div:after{
+	content: '$';
+}
+#cryptoList>div{
+	font-size: 2em;
+}
+#cryptoList>div:hover{
+	cursor: pointer;
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+#cryptoList>div>img{
+	height: 1em;
+}
+#main{
+	box-shadow: inset 0 0 3em black;
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
+}
+#main>header,#main>footer{
+	width: 90vw;
+	margin-left: 5vw;
+	font-size: 3em;	
+	text-align: center;
+	border-radius: 3em;
+}
+#main>header{
+	background: linear-gradient(transparent, transparent, transparent, rgba(0,0,0,0.6));
+}
+#main>footer{
+	position: fixed;
+	left: 0;
+	bottom: 0.5em;
+	background: linear-gradient(transparent, rgba(0,0,0,0.6), white, white, white);
+}
+#dialogWrapper{
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#dialogWrapper>#dialog{
+	top: 20%;
+	left: 20%;
+	position: absolute;
+	width: 60%;
+	height: 60%;
+	background: white;
+	border-radius: 2em;
+}
+#dialog>header, #dialog>footer{
+	width: 100%;
+	height: 10%;
+	background: grey;
+}
+#dialog>header{
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+}
+#dialog>footer{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+#dialog>section{
+	height: 80%;
+	width: 100%;
+}
+#dialog>header:before{
+	content: attr(data-crypto);
+}
+#dialog>header>span.change:before{
+	margin-left: 1em;
+	color: green;
+	content: '▲';
+}
+#dialog>header>span.change.negative:before{
+	color: red;
+	content: '▼';
+}
+#dialog>header>button{
+	float: right;
+	padding: 0.5em;
+	border-radius: 50%;
+}
+#dialog>section>img{
+	margin-left: 35%;
+	width: 30%;
+}

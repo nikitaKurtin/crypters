@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="my.css" />
+	<link rel="stylesheet" media="(orientation: landscape)" href="landi.css" />
+	<link rel="stylesheet" media="(orientation: portrait)" href="porti.css" />
+	<script src="jquery.js"></script>
+	<script >
+		
+		function showCrypto(cryptoElem){
+			const name = $(cryptoElem).attr("name"), change = $(cryptoElem).attr("data-change");
+			$("#dialog>header").attr("data-crypto", name);
+			if(change < 0){
+				$("#dialog>header>.change").addClass("negative");
+			}else{
+				$("#dialog>header>.change").removeClass("negative");
+			}
+			$("#dialog>header>.change").text(change);
+			$("#dialogWrapper").fadeIn(1000);
+		}
+		$(()=>{
+			$.getJSON("https://api.coinmarketcap.com/v2/ticker/?limit=15&convert=ILS", (res)=>{
+				var lis = "", count = 0;
+				const data = res.data;
+				for(let id in data){
+					const name = data[id].name;
+					const price = twoDecimal(data[id].quotes.USD.price);
+					const change24 = data[id].quotes.USD.percent_change_24h;
+					lis += "<div id='"+id+"' name='"+name+"' data-change='"+change24+"' onclick='showCrypto(this)'><img src='https://s2.coinmarketcap.com/static/img/coins/32x32/"+id+".png'> "+name+" "+price+"</div>";
+					count ++;
+				}
+				$("#cryptoList").html(lis);
+				$("#main>footer").text("Loaded "+count+" currencies");
+			});
+			
+			function twoDecimal(num){
+				return  Math.floor(num * 100) / 100;
+			}
+			$("#closeBtn").click(()=>{
+				console.log("btn!!!");
+				$("#dialogWrapper").fadeOut(1000);
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<div id="main">
+		<header>Crypto App</header>
+		<div id="cryptoList"></div>
+		<footer></footer>
+	</div>
+	<div id="dialogWrapper">
+		<div id="dialog">
+			<header data-crypto="" > <span class="change"></span><button id="closeBtn">x</button></header>
+			<section><img src="https://s2.coinmarketcap.com/generated/sparklines/web/7d/usd/1.png" /></section>
+			<footer></footer>
+		</div>
+	</div>
+</body>
+</html>
