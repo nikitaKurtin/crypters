@@ -1,5 +1,15 @@
 # crypters
 
+  ## Project minimal requirements:
+  - Create task management system, that supports multiple users. The app should acquire the following:
+  1. The user can register, log-in and log-out.
+  2. After user logs-in, he would see his own tasks.
+  3. User can create, update, read and delete his own tasks.
+  4. The app Responsive UI - adaptive for the smartphone screen.
+  5. Write clean, DRY and efficient code.
+
+  **Note** - you can either use any local database for example: [localStorage, IndexedDB](https://github.com/nikitaKurtin/crypters/blob/master/2018-09-05/Dugma.html), [WebSQL](https://github.com/nikitaKurtin/crypters/tree/master/2018-10-24/webSQL) etc or external database for example [Firebase](https://firebase.google.com/docs/web/setup), [Backedndless](https://backendless.com/docs/js/quick_start_guide.html), etc.
+
   ## [22.08.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-08-22) 
   - We talked about how browsers works & basic of Cryptography
   - Combining HTML, CSS & JS
@@ -56,3 +66,5 @@
   
   ## [21.11.18](https://github.com/nikitaKurtin/crypters/tree/master/2018-11-21)
   - Bootstrap
+  
+  
